@@ -196,6 +196,7 @@ public class MainActivity extends Activity implements BleLightStick.Listener, Ti
             }
         });
         add(root, durationBar, 2);
+        setContentView(scroll);
     }
 
     private void addChannelRow(LinearLayout root, int index) {
