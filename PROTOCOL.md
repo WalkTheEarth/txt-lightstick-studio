@@ -122,9 +122,10 @@ The Python library exposes `chunk_packet()`; the Android app does not use OTA.
 
 ## Research limits
 
-- Static evidence only: no physical lightstick was available, so effect timing,
-  maximum write rate, and whether every Ver.2 firmware accepts writes without a
-  preceding handshake are unverified.
+- The colour command and GATT map were verified against a physical lightstick
+  with the Android app (Samsung Galaxy S23 FE, One UI 8.5): scanning, connection
+  and colour control work. Effect timing, maximum write rate, and behaviour on
+  other Ver.2 firmware revisions remain uncharacterised.
 - The `PACKET_SIZE` and full firmware/OTA state machine were not reconstructed;
   they are not needed for colour control.
 - `isAndroidTxt1` (0x5f14c8 region) special-cases the older Ver.1 stick with a

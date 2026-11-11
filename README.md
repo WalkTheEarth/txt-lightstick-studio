@@ -97,8 +97,10 @@ Effect speed is fixed by the firmware; the app only chooses colour.
 
 ## Notes and limitations
 
-- Reverse engineered statically from the shipped APK (v1.10) — see
-  [PROTOCOL.md](PROTOCOL.md). **Not tested against physical hardware.**
+- Reverse engineered from the shipped APK (v1.10) — see
+  [PROTOCOL.md](PROTOCOL.md). Verified against a physical lightstick with the
+  Android app (Samsung Galaxy S23 FE, One UI 8.5): scanning, connection and
+  colour control work.
 - The official app's own effect picker orders its icons Solid, Strobe, Blink,
   Breath but sends modes 1, 4, 2, 3 respectively. This project maps effect
   names directly to the mode bytes.
