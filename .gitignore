@@ -1,0 +1,13 @@
+work/
+*.apks
+apk/
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+python/.venv/
+python/**/__pycache__/
+__pycache__/
+*.pyc
+.pytest_cache/
+python/*.egg-info/
